@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/dashboard/navbar.css">
+    <link rel="stylesheet" href="/css/contacts/contactsStyle.css">
+    <link rel="stylesheet" href="/css/todolist/todolist.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <section class="header-sec">
+        <div class="nav-contacts">
+            <nav id="navBar">
+                <h1>Todo List</h1>
+                <ul>
+                    <li><a href="/web_pages/dashboard.html"><i class='bx
+                                bx-home-alt'></i></a></li>
+                    <li><a href="/index.html"><i class='bx bx-log-out'></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="header-bg-sec">
+        <div class="header-bg-contacts">
+            <h1>Agenda Web</h1>
+        </div>
+    </section>
+    <section class="todo-main-app">
+        
+        
+        <div>
+            <div class="list-container container-todo">
+                <h1>Todo List</h1>
+                <form  id="form">
+                  <input type="text" id="task" placeholder="Enter a task">
+                  <button type="submit">Add</button>
+                </form>
+                <ul id="todo-list"></ul>
+            </div>    
+        </div>
+
+    </section>
+
+    <script src="/js/contacts/contacts.js"></script>
+    <script src="/js/todoList/todolist.js"></script>
+</body>
+</html>

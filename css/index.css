@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+:root{
+    --DarkBlue: #011f4b;
+    --NaviBlue: #03396c;
+    --Blue: #005b96;
+    --LightBlue: #6497b1;   
+    --LighterBlue: #b3cde0;
+
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+}

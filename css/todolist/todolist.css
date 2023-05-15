@@ -1,0 +1,79 @@
+body{
+    height: 100vh
+}
+
+.todo-main-app{
+    margin-top: 3vh;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/bg/bg-pop-light.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-todo {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .container-todo h1{
+    font-weight: 100;
+    color: rgb(5, 78, 85);
+  }
+  
+  .container-todo form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-todo input[type="text"] {
+    outline: none;
+    cursor: pointer;
+    width: 60%;
+    height: 50px;
+    border-radius: 3px;
+    padding: 1em;
+    padding-left: 3em;
+    border-style: none;
+    background-color: #0c3375;
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.342);
+  }
+  
+  .container-todo button[type="submit"] {
+    width: 14%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+  }
+
+  .container-todo ul{
+    margin-top: 1vh;
+  }
+  
+  .container-todo ul{
+    list-style: none;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.069);
+    backdrop-filter: saturate(180%) blur(90px);
+    -webkit-backdrop-filter: saturate(180%) blur(90px);
+  }
+  
+  .container-todo li {
+    background-color: lightgray;
+    padding: 15px 10px !important; 
+    margin-top: 10px;
+    text-align: left;
+  }
+
+
+

@@ -1,0 +1,66 @@
+.header-bg-contacts{
+    background-image: url(/img/bg/bg-mypf.jpg);
+
+}
+
+.nav-contacts nav h1{
+    color: white;
+}
+
+.header-bg-contacts h1{
+    color: white;
+}
+.favoritos-bg{
+    background-image: url(/img/bg/bg-landscape.jpg);
+}
+
+.contact-counter{
+    background-color: rgba(0, 0, 0, 0.594);
+        backdrop-filter: saturate(200%) blur(90px);
+    -webkit-backdrop-filter: saturate(180%) blur(90px);
+    border-bottom: solid rgb(0, 162, 255) 2px;
+}
+
+.contact-counter h1 {
+    color: white;
+    
+}
+
+.searchContacts input{
+    background-color: rgb(93, 145, 255);
+}
+
+.box-descrp-detail{
+    background-color:  #fffffff9;
+    border-radius: 3px;
+}
+
+.nav-contacts nav.sticky{
+    z-index: 9999;
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.747);
+    backdrop-filter: saturate(180%) blur(90px);
+    -webkit-backdrop-filter: saturate(180%) blur(90px);
+}
+
+
+.box-pfp-container img{
+    width: 300px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.detail-contact{
+    width: 100%;
+}
+
+.mobile p{
+    color: black;
+}
+
+.mail p{
+    color: black;
+}
